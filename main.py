@@ -3,12 +3,6 @@ import numpy as np
 import torch
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
-from transformers import BertModel, DistilBertModel
-#bert_model = BertModel.from_pretrained('monologg/kobert')
-#model = DistilBertModel.from_pretrained('monologg/distilkobert')
-#from tokenization_kobert import KoBertTokenizer
-#tokenizer = KoBertTokenizer.from_pretrained('monologg/kobert') # monologg/distilkobert도 동일
-
 # 0. HyperParameter ------------------
 
 maxlen = 80

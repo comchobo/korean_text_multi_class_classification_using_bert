@@ -1,3 +1,5 @@
+pytorch
+
 bert-base-multilingual-cased를 사용하여 classify하는 모델입니다.
 정확도는 기존 BiLSTM과 거의 유사합니다.
 
